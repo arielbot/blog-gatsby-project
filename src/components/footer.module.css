@@ -1,4 +1,4 @@
-.navigation {
+.footerMain {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -9,14 +9,16 @@
   font-size: 1.25em;
 }
 
-.navigationItem {
+.footerItem {
   display: inline-flex;
   align-items: center;
   margin: 0 1em;
+  font-size: 16px;
+  color: #fff;
 }
 
-.navigationItem a {
+.footerItem a {
   color: #fff;
   text-decoration: none;
 }
-.navigationItem a:hover {text-decoration: underline;}
+.footerItem a:hover {text-decoration: underline;}

@@ -11,12 +11,13 @@
     the viewport width
   */
   height: 61.8vh;
-  max-height: 400px;
+  max-height: 300px;
 }
+
+.heroImage img {min-width: 1280px;margin-left: calc(100% - 1280px);}
 
 .heroDetails {
   position: absolute;
-  background: rgba(0, 0, 0, 0.7);
   left: 50%;
   bottom: 0;
   transform: translate(-50%, 0);
