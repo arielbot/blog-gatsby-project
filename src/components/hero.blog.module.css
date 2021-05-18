@@ -1,0 +1,53 @@
+.hero {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+
+.heroImage {
+  /*
+    Ensure golden ratio for the hero size while limiting it to some extend to
+    the viewport width
+  */
+  height: 61.8vh;
+  max-height: 300px;
+}
+
+.heroImage img {min-width: 1280px;margin-left: calc(100% - 1280px);}
+
+.heroDetails {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  font-size: 14px;
+  padding: 0 0.5em;
+}
+
+@media(min-width: 320px) {
+  .heroImage {max-height: 150px;}
+}
+@media(min-width: 600px) {
+  .heroDetails {
+    font-size: 16px;
+  }
+}
+
+@media(min-width: 1000px) {
+  .heroDetails {
+    font-size: 20px;
+  }
+  .heroImage {max-height: 300px;}
+}
+
+.heroHeadline {
+  margin: 0;
+}
+
+.heroTitle {
+  margin: 0;
+  font-size: 1.125em;
+  font-weight: bold;
+}
