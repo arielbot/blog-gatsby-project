@@ -4,7 +4,6 @@ import get from 'lodash/get'
 import { Helmet } from 'react-helmet'
 import styles from './contact.module.css'
 import Layout from '../components/layout'
-import ArticlePreview from '../components/article-preview'
 
 class ContactIndex extends React.Component {
   render() {

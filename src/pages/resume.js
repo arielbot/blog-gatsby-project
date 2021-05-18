@@ -4,7 +4,6 @@ import get from 'lodash/get'
 import { Helmet } from 'react-helmet'
 import styles from './resume.module.css'
 import Layout from '../components/layout'
-import ArticlePreview from '../components/article-preview'
 
 class ResumeIndex extends React.Component {
   render() {
